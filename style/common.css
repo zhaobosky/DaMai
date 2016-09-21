@@ -1,0 +1,46 @@
+﻿/* 定位 */
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.bc{margin-left:auto;margin-right:auto;}
+.fl{float:left;display:inline;}  /* 可修复IE6中双倍边距bug */
+.fr{float:right;display:inline;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.Clearfix{display:block;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.abs-right{position:absolute;right:0;}
+.zoom{zoom:1;}
+.hidden{visibility:hidden;}
+.none{display:none;}
+
+/*边距*/
+.mt10 {margin-top: 10px;}
+.mt15 {margin-top: 15px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;}
+.mb20 {margin-bottom: 20px;}
+
+/*补白*/
+.pt10 {padding-top: 10px;}
+.pt15 {padding-top: 15px;}
+.pt20 {padding-top: 20px;}
+.pb10 {padding-bottom: 10px;}
+.pb15 {padding-bottom: 15px;}
+.pb20 {padding-bottom: 20px;}
+
+/*清除浮动*/
+.clear {clear: both;}
+
+/*页面宽度*/
+.w1200 {width:1200px;margin-left:auto;margin-right:auto;}
+.w980 {width:980px;margin-left:auto;margin-right:auto;}
+.w1000 {width:1000px;margin-left:auto;margin-right:auto;}
+.w1225 {width:1225px;margin-left:auto;margin-right:auto;}

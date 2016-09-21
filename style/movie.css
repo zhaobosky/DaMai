@@ -1,0 +1,81 @@
+/*搜索框*/
+.movie .serch{margin-left: 0px;margin-top: 16px;width: 425px}
+.movie .page{overflow:visible;}
+.movie form {display: block;}
+.movie .serch input{width: 320px;height: 25px;}
+.movie .serch button{width: 85px;height:35px;}
+.movie .headerR {width: 220px;height: 50px; color: #666;}
+.headerR ul, .headerR ol{width: 220px;}
+.headerR li{float: left;width: 60px;background:url(../images/moive-ticket.png) no-repeat 12px 5px;height: 70px;line-height: 85px;text-align: center;}
+.headerR ul li:first-of-type{background-image:url(../images/moive-ticket.png) ;}
+.headerR ul li:nth-of-type(2){background-image:url(../images/movie-credits.png) ;}
+.headerR ul li:nth-of-type(3){background-image:url(../images/movie-ticketSys.png) ;}
+.headerR .more{border:1px solid #eaeaea;height: 15px;width: 100%;z-index: 99;position: absolute;left: 0;top: 0;background-color: #fff;}
+.headerR .moreDown{position: relative;width: 15px;height: 15px;left: 10px;top: 20px;background-image: none; }
+.moreDown .movieMore{border:5px solid transparent;border-top-color: #ff3c3c;width: 0;height: 0;display: block;position: absolute;top:5px;left: 3px;}
+.moreDown .slideDown{position: absolute;width: 205px;top:40px;right: -2px;border:1px solid #eaeaea;padding:10px 0;background-color: #fff; display: none;}
+.headerR:hover .slideDown{z-index: 98;display: block;}
+.headerR:hover .more{height: 40px;border-bottom: 0;z-index: 99}
+.headerR ol li:first-of-type{background-image:url(../images/movie-venue.png) ;}
+.headerR ol li:nth-of-type(2){background-image:url(../images/movie-sub.png) ;}
+.headerR ol li:nth-of-type(3){background-image:url(../images/movie-zt.png) ;}
+.headerR ol li:nth-of-type(4){background-image:url(../images/movie-qz.png) ;}
+.headerR ol li:nth-of-type(5){background-image:url(../images/movie-mx.png) ;}
+.headerR ol li:nth-of-type(6){background-image:url(../images/moive-phone.png) ;}
+/*导航条*/
+.Nav{height: 36px;background:url(../images/nav_bg.png) repeat-x 0 0;width: 100%}
+/*.Nav .navList{float: left;}*/
+.Nav li{float: left;line-height: 36px;height: 36px;}
+.Nav li a{font-size: 14px;color: #fff;padding:0 10px;}
+.Nav li a:hover{text-decoration: none}
+.Nav li:hover{background: url(../images/nav_bg.png) repeat-x 0 -400px;}
+/*轮播图*/
+.slideBox{background: url(../images/movie_bg3.png) repeat-x 0 0;-webkit-background-size: auto 85%;
+background-size: auto 85%;;width: 100%;height: 668px;/*margin-top:-3px;*/position: relative;}
+/*.slideBox{background-image: linear-gradient(0 , #082e43,#2e85a0,#082e43);}*/
+.slideBox .contain{position: relative;}
+.slideBox .bigPic{width: 1000%}
+.bigPic li{width: 10%;height: 420px;}
+.slideBox .bigPic li img{width: 100%}
+.slideBox li {float: left;}
+.slideBox .smallNav {width: 120px;position: absolute;bottom:160px;left: 50%;margin-left: -40px; }
+.slideBox .smallNav li {width: 10px;height: 10px;border-radius: 5px;border:1px solid red;margin-right: 15px;}
+.slideBox .fenei{position: absolute;left: 50%;top:285px;margin-left: -500px;}
+.slideBox .fenei li{width: 250px;background: url(../images/movie_nav_bg.png) no-repeat 0 0;height: 135px;cursor: pointer;}
+.slideBox .fenei li:nth-of-type(2){background-position: -250px 0;}
+.slideBox .fenei li:nth-of-type(3){background-position: -500px 0;}
+.slideBox .fenei li:nth-of-type(4){background-position: -750px 0;}
+.slideBox .fenei li:nth-of-type(1):hover{background-position: -00px -135px;}
+.slideBox .fenei li:nth-of-type(2):hover{background-position: -250px -135px;}
+.slideBox .fenei li:nth-of-type(3):hover{background-position: -500px -135px;}
+.slideBox .fenei li:nth-of-type(4):hover{background-position: -750px -135px;}
+/*在线选座*/
+.container{	background:url(../images/movie_bg.png);	height: 1800px;}
+.supBigf{font-size: 64px;}
+.bigf{font-size: 34px; color: #fff;line-height: 190px;}
+.midf{font-size: 24px; }
+.smallf{font-size: 18px;}
+.movie {position: relative;top:-265px;}
+.movie .mov-tit{color: #5b7581;font-size: 24px;font-weight: normal;}
+.movie .mov-tit span.tl{font-size: 36px;padding-right: 5px;}
+.mov-tit .tit-more{font-weight: 18px; }
+i.plus{display: inline-block;line-height: 22px;text-align: center; height: 22px;width:22px; border:4px solid #5b7581;border-radius: 50%;font-size: 22px;font-weight: bold;font-style: normal;}
+.movie ul{position: relative;}
+.movie ul li h3{font-style: normal;}
+.movie ul li.small{width: 190px;height: 190px;}
+.movie ul li.longWidth{width: 595px;height: 190px;}
+.movie ul li.midWidth{width: 395px;height: 190px;}
+.movie ul li img{width: 100%;height: 100%;}
+.movie ul li{position: absolute;overflow: hidden;text-align: center;cursor: pointer;}
+.movie ul li.s1{left: 0 ; top: 0 ;background: #fd0000;}
+.movie ul li.s2{left: 205px ; top: 0}
+.movie ul li.s3{left: 810px ; top: 0}
+.movie ul li.s4{left: 0px ; top: 200px}
+.movie ul li.s5{left: 405px ; top: 200px}
+.movie ul li.s6{left: 810px ; top: 200px}
+.movie ul li.s7{left: 0px ; top: 400px}
+.movie ul li.s8{left: 205px ; top: 400px}
+.movie ul li.s9{left: 405px ; top: 400px}
+.movie ul li.s10{left: 605px ; top: 400px}
+.fly.droSh{bottom:0;}
+.forSale{top:320px;}

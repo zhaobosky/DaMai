@@ -1,0 +1,67 @@
+/*顶部导航开始*/
+.topWrapper{background-color: #f7f7f7; border-bottom: 1px solid #e5e5e5;height: 35px; color: #666;}
+.topWrapper ul li{float: left;padding:0 10px; line-height: 35px; background: url(../images/top-bg.png) no-repeat 90px 14px; position: relative; cursor: pointer;box-sizing: border-box;}
+.topWrapper ul li a{color: #666;}
+.topWrapper ul li.on{border:1px solid #e5e5e5; background-color: #fff;border-bottom: 0; left:-1px;background-image: none;}
+.topWrapper ul .login{color: #e51b46}
+/*角标*/
+i.item{width: 10px;height: 10px;background: url(../images/top-bg.png) no-repeat 0px -40px ; display: inline-block;position: absolute; top: 17px;right:5px; }
+i.sanjiao {width: 8px;height: 4px;transition: transform 1s ease 0s,background 0s ease 0.5s;}
+.topWrapper ul li:hover i.sanjiao{transform: rotate(360deg) ;  background-position: 0 -50px;}
+.topWrapper ul.top-left li:nth-of-type(1){cursor:text; }
+.topWrapper ul.top-left li:nth-of-type(2){background-position: -10px 14px;padding-right: 20px}
+i.weixin{background: url(../images/top-weixin.png) no-repeat 0 0 ;width: 18px;height: 15px; top:13px;left:6px;transition: all 1s ease 0s; }
+.topWrapper ul li:hover i.weixin{background-position: 0 -15px;}
+i.shouji{background-position: 0 -60px; width: 18px;height: 16px; top:11px;left:12px;transition: all 1s ease 0s; }
+.topWrapper ul li:hover i.shouji{background-position: 0 -80px}
+i.site{background-position: 0 -100px;left: 7px; top: 14px;}
+/*下拉设置*/
+.topWrapper ul li .dropDown{background: #fff;width: 100%;border:1px solid #e5e5e5;border-top: 0; position: absolute;left: -1px;text-align: center;line-height: 20px;display: none;}
+.topWrapper ul li.on .dropDown{display: block;}
+.topWrapper  .dropDown p a:hover{display:block;background-color: #f7f7f7;}
+.topWrapper  .dropDown .weixin-code{width: 75px;height: 75px;background: url(../images/weixin-code.png) no-repeat -15px -15px;margin: 10px auto;}
+/*右侧导航栏设置*/
+.topWrapper ul.top-right li:nth-of-type(1){background-position: -43px 14px;}
+.topWrapper ul.top-right li:nth-of-type(2){background-position: 0px 14px; padding-left: 30px;}
+.topWrapper ul.top-right li:nth-of-type(3){background-position: -24px 14px; padding-left: 30px;}
+.topWrapper ul.top-right li:nth-of-type(4){background-position: -22px 14px;padding-right: 20px;}
+.topWrapper ul.top-right li:nth-of-type(5){background-image:none;padding-right: 20px;padding-left: 25px;}
+/*手机版设置*/
+.topWrapper .app .dropDown{width: auto;padding:15px;}
+.topWrapper .top-app{width: 195px;height: 90px;background: url(../images/top-app.png) no-repeat -5px 0; margin-top:5px;}
+.topWrapper .apple{background-position: -5px -98px;height: 40px;}
+.topWrapper .ipad{background-position: -5px -140px;height: 40px;}
+.topWrapper .android{background-position: -5px -180px;height: 40px;}
+.topWrapper .wp{background-position: -5px -221px;height: 40px;}
+.topWrapper .Msite{background-position: -5px -274px;height: 85px;}
+/*网址导航设置*/
+.topWrapper li.site .dropDown {width: 760px;right: -1px;left: auto;text-align: left;}
+.topWrapper li.site dl{padding-left: 15px;margin-top:20px;}
+.topWrapper li.site .service{width: 150px;}
+.topWrapper li.site .show{width: 150px;border: 1px solid #e5e5e5;border-top: 0;border-bottom: 0;height: 255px;}
+.topWrapper .dropDown .citys{width: 385px}
+.topWrapper li.site .dropDown li{padding-left:0px;padding-right:0px; background-image:none;width: 70px;}
+.topWrapper li.site .citys li{width: 55px;}
+.topWrapper li.site  li a {color: #333;}
+.topWrapper li.site  li a:hover {color: #e51b46;}
+
+/*底部导航开始*/
+.footer{border-top:1px solid #e5e5e5;background-color: #f7f7f7;color:#666;}
+.footer a{line-height: 25px;color: #666;}
+
+.footer a:hover{color: #e51b46 !important;text-decoration: none;}
+/*.footerTop开始*/
+.footer .footerTop{width: 100%; display:flex; padding:20px;border-bottom: 4px solid #e51b46;box-sizing: border-box;}
+.footer .footerTop dl{flex:1; text-align: left;}
+.footer .footerTop dt{font-size: 16px;padding-bottom: 10px;}
+
+.footer .footerTop dd .weixin{width: 90px;height: 90px;background: url(../images/top-bg.png) no-repeat 0px -135px; }
+.footer .footerTop dd .pad{background-position: 0px -350px;}
+/*.footerTop结束*/
+/*footerMiddle开始*/
+.footer .footerMiddle{border-bottom:1px solid #e5e5e5;padding:5px 0;}
+.footer .footerMiddle a,.footer .copyRight a,.footer .certificate a{padding: 0 10px; }
+.footer .footerMiddle a:hover{text-decoration: underline;}
+/*copyRight*/
+.footer .copyRight{padding:10px 0;}
+.footer .copyRight a{padding: 0 10px; }
